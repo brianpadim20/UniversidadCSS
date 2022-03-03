@@ -1,0 +1,58 @@
+html{
+    height: auto;/*Centrar en el eje vertical cualquier elemento que se tenga*/
+    min-height: 100%; /*para que el valor mínimo del alto sea el 100% y se expanda el fondo y no
+    se repita el elemento*/
+
+}body{
+    /* background: linear-gradient(#f72585, #3a0ca3); */
+    /* background: linear-gradient(to right,#f72585, #3a0ca3); */
+    /* background: linear-gradient(#24404d, #6dbff1, black); */
+    /* background: linear-gradient(to bottom right,#f72585, #3a0ca3 ); */
+    /* background: linear-gradient(145deg,#f72585, #3a0ca3 ); */
+    
+
+}h1{
+    text-align: center;
+    color: #e63946;
+    text-shadow: 1px 1px 2px #a8dadc;
+                /*Primer valor es la sombra hacia la derecha valores positivos, izquieda negativos
+                segundo valor ancho de la sombra (eje vertical)
+                tercer valor es el blur o difuminado (permite que la sombra no sea tan dura, no puede<0)
+                color de la sombra
+                */
+
+}div.contenedor{
+    width: 30%; /*Ancho*/
+    height: 20%;/*alto*/
+    margin: auto; /*para que se centre*/
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    columns: #457b9d;
+    text-align: center;
+    /* background: radial-gradient(circle, #0d47a1, #69b2ee9a); */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 3px grey;
+                /*Primer valor es la sombra hacia la derecha valores positivos, izquieda negativos
+                segundo valor ancho de la sombra (eje vertical)
+                tercer valor es el blur o difuminado (permite que la sombra no sea tan dura, no puede<0)
+                cuarto valor para hacer crecer la sombra
+                color de la sombra
+                */
+    color: #457b9d;
+
+}img{
+    opacity: 0.5; /*Ninguna transparencia*/
+
+}img:hover{
+    opacity: 1.0;
+
+}div.cabecero{
+    background-color: #4cc9f0;
+
+}div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177,177,177);
+
+}

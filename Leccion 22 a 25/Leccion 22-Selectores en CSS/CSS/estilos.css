@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: #e63946;
+
+}div.contenedor{
+    width: 80%; /*Ancho*/
+    height: 20%;/*Alto*/
+    margin: auto;/*Centrar*/
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+
+}div.contenedor.descendiente p{/*Descendiente directo*/
+    background-color: #fdffb6;
+}div.contenedor.hijo > p{/*con el símbolo > se van a seleccionar los elementos de tipo
+    parrafo que sean hijos directos*/
+    background-color: #ffc6ff;
+
+}div.contenedor.adyascente + p{
+    /*
+    Se selecciona el elemento inmediatamente después del elemento que se va a configurar
+    */
+    background-color: #caffbf;
+}div.contenedor.hermano ~ p{
+    /*Todos los parrafos que se encuentren en el mismo nivel tendrán el nivel de hermanos*/
+    background-color: #9bf6ff;
+}
