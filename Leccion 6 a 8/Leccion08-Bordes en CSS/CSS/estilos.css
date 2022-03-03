@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+}p{
+    font-size: 30px;
+}.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+}.discontinuo{
+    border-style: dashed;
+    border-width: thick;/*con la propiedad thick se pone el borde más ancho, con thin mas delgado y 
+    medium es para un borde mediano*/
+}.solido{
+    border: solid 5px red;
+    border-radius: 20px;
+}.doble{
+    border: 5px double blueviolet;
+    border-width: 10px 5px;
+}.surco{
+    border: 10px groove;
+}.cresta{
+    border: 10px ridge;
+    border-color: red blue hotpink gold;
+}.recuadro{
+    border: inset;
+    border-width: 10px 5px 2px;
+}.outset{
+    border: 10px outset;
+}.sinBorde{
+    border: none;
+}.oculto{
+    border: hidden;
+}.mixto{
+    border-style: dotted solid dashed double;
+}.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
