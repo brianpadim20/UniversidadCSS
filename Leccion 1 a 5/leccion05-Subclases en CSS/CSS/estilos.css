@@ -1,0 +1,4 @@
+p.centrar /*Es un selector que afecta a un tipo elemento en específico, en este caso, solo a parrafos
+*/{
+    text-align: center;
+}

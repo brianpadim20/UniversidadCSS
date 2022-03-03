@@ -1,0 +1,13 @@
+*/*El * es el selector universal y afectará a toda la página*/{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}
+#titulo{
+    color: crimson;
+    text-align: center;
+    font-size: 50px;
+}.centrar /*La clase se nombra con un punto.*/{
+    text-align: center;
+}.textoGrande{
+    font-size: 20px;
+}
