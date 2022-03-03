@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: crimson;
+
+}div.contenedor{
+    position: relative;
+    border: dashed 3px greenyellow;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+}div.contenedor.derecha{
+    float: right;
+    border: 3px dashed cornflowerblue;
+}div.contenedor.izquierda{
+    float: left;
+
+}div.contenedor.centrado{
+    clear: both;
+    border: 3px dashed gray;
+    margin: auto;
+}

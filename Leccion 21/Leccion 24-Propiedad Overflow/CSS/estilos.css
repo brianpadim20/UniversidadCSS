@@ -1,0 +1,18 @@
+div.contenedor{
+    position: relative;
+    border: dashed 3px greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    /*
+    overflow: hidden => Para ocultar lo que se salga del cuadro
+    overflow: visible => Para que siempre sea visible el texto en el overflow
+    overflow: aut => Se agrega la barra de scroll en caso de necesitarlo
+    */
+
+}h1{
+    text-align: center;
+    color: crimson;
+
+}

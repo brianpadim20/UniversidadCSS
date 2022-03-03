@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: crimson;
+}div{
+    width: 50%; /*La ventaja de usar un porcentaje en vez de pixeles es que de manera
+    automática se va ajusta el tamaño del elemento*/
+    border: 3px solid firebrick;
+    margin: auto;/*La propiedad auto centra automáticamente en el espacio que se tenga disponible.*/
+}

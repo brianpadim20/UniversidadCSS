@@ -1,0 +1,61 @@
+*{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+
+}p{
+    background-color: aqua;
+    border: 3px solid firebrick;
+    max-width: 50%;
+    margin: auto;
+
+}div.relativa{
+    /*
+    Cuando se usa la posición relativa afectará los valores de top, left, bottom y right, se moverá 
+    de manera relativa en los elementos que esté afectando. Por lo tanto se moverá de manera relativa
+    a su posición natural según los valores que se indiquen.
+    
+    Si se quieren agregar más elementos, se agregarán de manera natural, pero no ocuparán el espacio
+    del elemento con la posición relativa
+    */
+    max-width: 50%;
+    border: solid 3px firebrick;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: 50px;
+
+}div.fixed{
+    /*
+    El elemento se va a colocar de manera relativa al viewport (pantalla disponible en la página)
+    Estará fijo en la pantalla y siempre se verá en la posición de la pantalla que se le ha asignado. 
+    */
+    border: solid 3px firebrick;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+
+}div.absolute{
+    /*
+    A diferencia de la posición fija (fixed) normalmente se usa cuando se trabaja dentro de otro
+    elemento de tipo div, y dentro de este elemento se posicionará de manera absoluta, pero teniendo
+    en cuenta el elemento que lo contiene. En resumidas cuentas, el elemento no será visible en todo
+    momento, se dejará de ver a medida que se haga scroll.
+    */
+    border: solid 3px firebrick;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}div.sticky{
+    /*
+    Funciona de manera relativa hasta el momento que sale de la pantalla, pero cuando se puede colocar
+    en su posicion natural se ubica donde estaba originalmente
+    */
+    position: sticky;
+    top: 0;
+    border: 3px solid crimson;
+}
