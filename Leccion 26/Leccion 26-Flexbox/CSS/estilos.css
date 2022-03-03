@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+
+}div.contenedor{
+    display: flex;/*Esto aplica el concepto de flex box a un div*/
+    background-color: #560bad;
+    height: 200px;
+    /* align-items: flex-start; Sirve para alinear los elementos hacia la parte superior y
+                            que así su tamaño no se vea afectado por el height */
+    /* align-items: stretch; Alinea a los elementos para que ocupen todo el campo disponible en el div */
+    /* align-items: baseline; Se verá cuando los elementos tienen diferentes tamaños */
+
+    align-items: center; /*Alinea los elementos alinear los elementos en el centro*/
+    
+
+    /* *********************************************************************************************** */
+    /* flex-direction: column; organiza los elementos de arriba hacia abajo, ocupando todo el ancho
+    del elemento disponible*/
+    /* flex-direction: column-reverse;organiza los elementos en orden opuesto, en este caso 3-2-1 */
+    /* flex-direction: row; para que se muestre el texto de manera horizontal */
+    /* flex-direction: row-reverse; Los elementos se cargan hacia la derecha y en orden descendente*/
+    /* flex-wrap: wrap; Esto hace que los elementos no se queden fuera de la ventana, sino que pasen de */
+                    /* manera automatica a la siguiente línea en el espacio de la pantalla */
+
+    flex-flow: row wrap;/*flex direction y wrap*/
+
+
+    /* *********************************************************************************************** */
+
+    /* justify-content: flex-start; Valor por default, se muestran los elementos organizados al lado
+    izquierdo */
+    /* justify-content: flex-end; Organiza los elementos hacia la derecha */
+    /* justify-content: space-between; Cada uno de los elementos se cargan hacia los extremos */
+    /* justify-content: space-around; Agrega espacio entre el lado izquierdo y el lado derecho */
+    /* justify-content: center; Organiza los elementos hacia el centro */
+    
+    justify-content: space-evenly; /*Para dejar el mismo espacio entre los elementos a sus 2 lados*/
+
+    /* *********************************************************************************************** */
+
+    /* align-content: flex-start; Alinea los elementos hacia la parte superior*/
+    /* align-content: flex-end; Alinea los elementos hacia la parte inferior*/
+    /* align-content: space-between; Carga los elementos a los extremos y deja espacio entre esos
+                      elementos */
+    align-content: center;  /*Alinea los elementos hacia el centro*/
+
+}div.contenedor > p{/*Selector combinado para los elementos de tipo hijo*/
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-style: 1.5em;
+
+}
