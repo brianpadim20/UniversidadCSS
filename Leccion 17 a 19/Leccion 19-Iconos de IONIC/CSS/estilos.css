@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: crimson;
+}.iconoAzul{
+    font-size: 2em;
+    color: cornflowerblue;
+    vertical-align: bottom;
+}.iconoVerde{
+    font-size: 2em;
+    color: green;
+    vertical-align: bottom;
+}
