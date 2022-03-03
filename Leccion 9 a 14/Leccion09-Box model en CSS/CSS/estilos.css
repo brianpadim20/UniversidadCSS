@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #e63946;
+}div{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    width: 150px;/*Marca el ancho del espacio que se va a trabajar*/
+    outline: 10px solid #a8dadc;/*Outline es lo que esta entre el borde y el margen. 
+    Pero a este se le puede dar anchor y color*/
+    outline-offset: 10px; /*Separa el outline del borde, no se le puede asignar un color*/
+    box-sizing: border-box;/*Establece el tamaño de la caja en el tamaño del width, en este caso 150px*/
+}

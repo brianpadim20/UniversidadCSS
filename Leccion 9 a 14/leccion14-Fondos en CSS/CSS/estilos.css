@@ -1,0 +1,12 @@
+body{
+    color: cornsilk;
+    background-attachment: scroll;/*Scroll sirve
+    para que la imagen de fondo siga a la barra
+    de scroll, si se pone fixed, el fondo queda
+    fijo*/
+    background: dodgerblue url("/img/fondo.png");
+}h1{
+    text-align: center;
+    background-color: dodgerblue;
+
+}
