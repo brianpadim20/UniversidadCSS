@@ -1,0 +1,61 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    text-decoration: underline overline;
+
+}.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+
+}.caja.serif{/*solamente afectará los archivos de clase caja, y a estos se les dará el nombre de serif, puede ser cualquier otro nombre*/
+    background-color: #5a189a;
+
+}.fuenteTimes{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps/*Todo está en mayúscula, pero la primer letra de cada palabra está en mayúscula un poco más grande*/;
+    font-size: large;/*modifica el tamaño de la fuente que se está usando*/
+
+}.fuenteGeorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic; /*Pone la fuente un poco cursiva*/
+    font-weight: bold; /*Pone la letra en negrita*/
+    /*font-size: 3vw;/*view width (ancho de la pantalla) 1vw = 1% de la pantalla*/
+    /*font-size: 3vh; -> lo mismo que lo de arriba, pero con el alto de la pantalla*/
+    /*Orden para las fuentes: font: font-style font-variant font-weight font-size(obligatorio) line-height (pocional) font-family (obligaotrio)*/
+    
+}.caja.sans-serif{
+    background-color: #00b4d8;
+
+}.fuente-arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;/*Pone la letra también un poco cursiva*/
+    font-weight: bolder;/*Fuente en negrita aun mas ancha*/
+
+}.fuente-verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+
+}.caja.monospace{
+    background-color: #f15bb5;
+
+}.fuente-cuorier{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+}.caja.lucida{
+    background-color: #ff8500;
+
+}.fuente-lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}

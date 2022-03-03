@@ -1,0 +1,24 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px /*eje x*/ 2px /*eje y*/ 2px /*difuminado*/ #ced4da;
+    letter-spacing: 3px;/*separar los acacteres de las letras, para juntar los caracteres se pueden usar valores negativos*/
+    word-spacing: 3px;/*Separa las palabras una de otra*/
+    text-decoration: overline underline;
+}.caja {
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}.texto{
+    text-align: justify;/*Para que queden igualmente distribuídos todos los párrafos*/
+    /*direction: rtl permite que el texto se lea de izquierda a derecha*/;
+    text-decoration: none;
+    text-indent: 30px;
+    /*line-height: 3;*//*modifica el espacio entre líneas*/
+    white-space: inherit;
+    text-shadow: 1px 1px 2px #cecece;
+}
